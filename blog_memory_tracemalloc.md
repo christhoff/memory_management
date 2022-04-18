@@ -1,6 +1,6 @@
 ## Memorize your memory references with tracemalloc
 
-Starting out programming in Python is a charm. Python is designed with user friendlyness in mind.
+Starting out programming in Python is a charm. Python is designed with user friendliness in mind.
 You can quickly write programs without the need to think about data types or memory management.
 But once you scale your code to production-like settings with bigger workloads and complexity, 
 you need to step up your Python game. One trick up your sleeves might be tracemalloc, a tool to capture rampant memory objects.
@@ -27,7 +27,7 @@ id(name_2)
 139878446196176
 ```
 
-The reference count is part of an object, and every time you let a name reference the object you increment the count, everytime you remove a reference
+The reference count is part of an object, and every time you let a name reference the object you increment the count, every time you remove a reference
 you decrement the count. One way to remove a reference is to use the del keyword on the name, like del name_1.
 Once the reference count is zero, the object will be removed from memory for you.
 
